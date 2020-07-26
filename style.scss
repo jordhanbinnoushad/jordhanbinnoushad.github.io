@@ -66,7 +66,7 @@ li{
     }
     h1{
         display: flex;
-        flex: 4;
+        flex: 3;
     }
     img{
         display: flex;
@@ -74,7 +74,7 @@ li{
         object-fit: cover;
     }
     .product-description{
-        flex: 3;
+        flex: 4;
         text-align: start;
         flex-direction: column;
         div{
@@ -83,18 +83,9 @@ li{
         h3{
             flex: 1;
             font-size: 32px;
-            clip: rect(0px,60px,200px,0px);
         }
     }
 }
-// img{
-//     height: 40%;
-//     width: 40%;
-//     margin: auto;
-//     display: flex;
-//     flex: 1;
-//     align-self: center;
-// }
 .order-link{
     b{
     background-color: red;
