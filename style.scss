@@ -4,8 +4,10 @@ body{
     background: radial-gradient(#333333,#070707);
     background-repeat: no-repeat;
     // height: 100%;
-    font-size: 60.25;
+    // font-size: 60.25%;
+    height: max-content;
     display: flex;
+    flex: 1;
     flex-direction: column;
 }
 .nav-container{
@@ -72,11 +74,13 @@ li{
         display: flex;
         flex: 6;
         object-fit: cover;
+        transform: rotate(-5deg);
     }
     .product-description{
         flex: 4;
         text-align: start;
         flex-direction: column;
+        padding-left: 2rem;
         div{
             flex: 2;
         }

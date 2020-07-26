@@ -2,10 +2,15 @@ body {
   margin: auto;
   background: radial-gradient(#333333, #070707);
   background-repeat: no-repeat;
-  font-size: 60.25;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -126,6 +131,8 @@ li b {
           flex: 6;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
 }
 
 .img-container .product-description {
@@ -137,6 +144,7 @@ li b {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-left: 2rem;
 }
 
 .img-container .product-description div {
